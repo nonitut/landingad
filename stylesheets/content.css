@@ -1,0 +1,258 @@
+body{
+  background: #F6F8FF;
+}
+.backgroundimg{
+  position: absolute;
+  align-items: center;
+  z-index:1;
+  justify-content:  center;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+.h1{
+  position: relative;
+  text-align: center;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5vw;
+  line-height: 100%;
+  z-index: 2;
+  margin-top: 15%;
+}
+.h1color{
+  color: #6E92EE;
+}
+.section1{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom:  20px;
+  margin-bottom:  10px;
+  border-radius: 0px 0px 50px 0px;
+  filter: drop-shadow(0px 4px 30px rgba(110, 146, 238, 0.3));
+  background: #FFFFFF;
+
+}
+.p1{
+    margin-right:  30px;
+}
+.logo{
+  margin-left: 5%;
+}
+.infomenu{
+  display: flex;
+  justify-content: flex-end;
+  margin-right:  5%;
+  align-items: center;
+}
+.buttonmenu{
+border: 1px solid;
+ padding: 10px 30px 10px 30px ;
+ border-radius: 2px;
+ background: white;
+ color: #6E92EE;
+ font-weight: bolder;
+ border-color: #6E92EE;
+
+}
+.buttonmenu:hover{
+  color: white;
+  background: #6E92EE;
+  transition: 0.5s;
+  font-weight: bolder;
+
+}
+.section2{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    height: 47vw;
+}
+.section3{
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 2%;
+}
+.button3{
+  border: 1px solid;
+   padding: 10px 30px 10px 30px ;
+   border-radius: 100px;
+   background: white;
+   color: #6E92EE;
+   font-weight: bolder;
+   border-color: #6E92EE;
+ }
+ .button3:hover{
+   color: white;
+   background: #6E92EE;
+   transition: 0.5s;
+   font-weight: bolder;
+ }
+ .imgsection3{
+   position: relative;
+   justify-content: center;
+   display: flex;
+   height: 40vw;
+ }
+.psection4{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 50px;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  background: #6E92EE;
+  padding:2%;
+  white-space: nowrap;
+}
+.section4{
+  overflow: hidden;
+}
+.psection5{
+  margin-top: 6%;
+  position: relative;
+  padding-left: 5%;
+  font-size: 2vw;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px;
+}
+.section51{
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kursiblok:hover{
+  background: linear-gradient(0deg, rgba(110, 146, 238, 0.2), rgba(110, 146, 238, 0.2)), url(333.png);
+}
+
+.buttonsection5{
+  padding: 0px;
+  margin: 0px;
+  border-radius: 2px;
+  border: none;
+  background: #F6F8FF;
+  color: #EEB36E;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1vw;
+  line-height: 32px;
+}
+.buttonsection5:hover{
+  color: #6E92EE;
+}
+
+.ptextsection5{
+  padding-top: 5%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 26px;
+}
+.divsection6{
+  position: relative;
+  width: 99%;
+  height: 40%;
+  border: 4px dashed #6E92EE;
+  border-radius: 20px;
+}
+.section6{
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divsection6flex{
+  padding: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textotziv{
+  padding: 10%;
+}
+.textotziv1{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.textotziv2{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1vw;
+  line-height: 50px;
+}
+
+.textotziv3{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 120%;
+}
+
+.h1section7{
+  margin-top:  5%;
+  padding: 3%;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2vw;
+  line-height: 120%;
+  text-align: center;
+}
+
+.psection7{
+  position: relative;
+  padding-bottom:  5%;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2vw;
+  line-height: 40%;
+  text-align: center;
+}
+.section7{
+  position: relative;
+  text-align: center;
+}
+.section8{
+  padding: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  color: white;
+  background: black;
+  padding-left:10vw;
+}
+
+.section9{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background:  black;
+  width: 100%;
+  height: 10vw;
+  padding-top: 3vw;
+}
+.footer2{
+  padding-right: 50vw;
+}
