@@ -2,7 +2,6 @@ body{
   background: #F6F8FF;
   width: 100%;
   font-family: Futura;
-  font-style: normal;
 }
 .backgroundimg{
   position: absolute;
@@ -291,7 +290,9 @@ width: 40vw;
   padding-left:10vw;
   padding-top: 1vw;
 }
-
+a{
+  text-decoration: none;
+}
 .section9{
   position: relative;
   display: flex;
