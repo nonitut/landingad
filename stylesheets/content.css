@@ -104,13 +104,19 @@ border: 1px solid;
  .hidden{
    opacity: 0;
  }
+ .hiddenadd{
+   opacity: 1;
+ }
  .blokcer{
    display: none;
  }
-.but2, .but3, .but4,.but5, .but6, .but7{
+ .blok{
+   display: flex;
+ }
+.but2, .but3, .but4,.but5, .but6, .but7 {
 
 }
-.Современ, .Интерес, .Тесты, .Личные, .Проверка{
+.Современ, .Интерес, .Тесты, .Личные, .Проверка,.Кейсы{
   display: none;
 }
 .buttonsection2{
@@ -285,9 +291,9 @@ width: 40vw;
 }
 
 .footer{
+  padding-left: 5vw;
+  font-size: 1vw;
   color: white;
-  background: black;
-  padding-left:10vw;
   padding-top: 1vw;
 }
 a{
@@ -305,9 +311,7 @@ a{
   padding-bottom: 3vw;
 }
 .footer2{
-  padding-top: 2vw;
   padding-right: 50vw;
-
 }
 .footer3{
   padding-top: 2vw;
