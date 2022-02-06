@@ -1,5 +1,6 @@
 body{
   background: #F6F8FF;
+  width: 100%;
 }
 .backgroundimg{
   position: absolute;
@@ -98,16 +99,51 @@ border: 1px solid;
    display: flex;
    height: 40vw;
  }
+
+ .hidden{
+   opacity: 0;
+ }
+ .blokcer{
+   display: none;
+ }
+.but2, .but3, .but4,.but5, .but6, .but7{
+
+}
+.Современ, .Интерес, .Тесты, .Личные, .Проверка{
+  display: none;
+}
+.buttonsection2{
+  border: 1px solid;
+   padding: 15px 35px 15px 35px ;
+   border-radius: 2px;
+   background: #000000;
+   color: white;
+   font-weight: bolder;
+
+   text-align: center;
+   position: relative;
+   line-height: 100%;
+   z-index: 1;
+   margin-top: 5%;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1vw;
+}
+.buttonsection2:hover{
+  border-color: none;
+  background: #6E92EE;
+  transition: 0.5s;
+}
+
 .psection4{
   font-family: Futura;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
   line-height: 50px;
-  color: white;
-  overflow: hidden;
+  color: #6E92EE;
+
   position: relative;
-  background: #6E92EE;
   padding:2%;
   white-space: nowrap;
 }
@@ -124,16 +160,26 @@ border: 1px solid;
   font-weight: bold;
   line-height: 32px;
 }
+
+.imgОтзыв{
+  width: 25vw;
+}
 .section51{
   padding: 5%;
   display: flex;
   justify-content: space-between;
 }
 
+.kursiblok{
+width: 20vw;
+}
 .kursiblok:hover{
   background: linear-gradient(0deg, rgba(110, 146, 238, 0.2), rgba(110, 146, 238, 0.2)), url(333.png);
+  border-radius: 10px;
 }
-
+.imgrobot{
+width: 40vw;
+}
 .buttonsection5{
   padding: 0px;
   margin: 0px;
