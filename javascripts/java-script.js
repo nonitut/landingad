@@ -14,9 +14,28 @@ $(document).ready(function(){
   });
 });
 $('thumb:first').click();
+// кнопка триггер к картинкам
 
 let y;
 $(window).on('scroll', function() {
 	y = $(window).scrollTop();
 	$('.psection4').css('right',5 + parseInt(y-1250) + '%');
-});
+}); // строка едет
+
+
+$(document).mousemove(function(e) {
+    let body_size_x = $( window ).width();
+    let body_size_y = $( window ).height();
+    let left_dir = e.pageX;
+    let top_dir = e.pageY;
+    $('#body').html(body_size_x + ' + ' + body_size_y);
+
+    $('#top').html(top_dir);
+    $('#left').html(left_dir);
+
+    if (left_dir >  body_size_y) {
+      $('#box').css("background-color","pink");
+    } else {
+      $('#box').css("background-color","blue");
+    }
+});// хочу сделать в первом блоке при движении влево смену картинки на инверсию
