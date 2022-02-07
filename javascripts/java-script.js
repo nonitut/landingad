@@ -89,3 +89,13 @@ $(document).ready(function(){
     $(".Кейсы").toggle("blok");
   });
 });
+
+$('.rectangle').click(function(){
+    $('.glass').find('#glass').attr('src',"images/glasses/glasses_rectangle_black.svg");
+  });
+  $('.star').click(function(){
+    $('.glass').find('#glass').attr('src',"images/glasses/glasses_star_black.svg");
+  });
+  $('.circle').click(function(){
+    $('.glass').find('#glass').attr('src',"images/glasses/glasses_round_black.svg");
+  });
