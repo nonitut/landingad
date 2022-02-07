@@ -92,7 +92,7 @@ $(document).ready(function(){
 
 $('.rectangle').click(function(){
     $('.glass').find('#glass').attr('src',"images/glasses/glasses_rectangle_black.svg");
-  });
+  }); //attr - возвращает undefined для тех атрибутов, значение которых не было задано
   $('.star').click(function(){
     $('.glass').find('#glass').attr('src',"images/glasses/glasses_star_black.svg");
   });
