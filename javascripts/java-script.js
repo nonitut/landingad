@@ -45,56 +45,56 @@ $(window).on('scroll', function() {
 //     }
 // });// хочу сделать в первом блоке при движении влево смену картинки на инверсию
 
-$(document).ready(function(){
-  $(".but1").click(function(){
-    $(".Уроки").toggle("hidden");
-    // if ( ".but2, .but3, .but4, .but5, .but6, .but7 " != 1) {
-    //
-    //   }
-  });
-});
+// $(document).ready(function(){
+//   $(".but1").click(function(){
+//     $(".Уроки").toggle("hidden");
+//     // if ( ".but2, .but3, .but4, .but5, .but6, .but7 " != 1) {
+//     //
+//     //   }
+//   });
+// });
+//
+// $(document).ready(function(){
+//   $(".but2").click(function(){
+//     $(".Современ").toggle("blok");
+//   });
+// });
+//
+// $(document).ready(function(){
+//   $(".but3").click(function(){
+//     $(".Интерес").toggle("blok");
+//   });
+// });
+//
+// $(document).ready(function(){
+//   $(".but4").click(function(){
+//     $(".Тесты").toggle("blok");
+//   });
+// });
+//
+// $(document).ready(function(){
+//   $(".but5").click(function(){
+//     $(".Личные").toggle("blok");
+//   });
+// });
+//
+// $(document).ready(function(){
+//   $(".but6").click(function(){
+//     $(".Проверка").toggle("blok");
+//   });
+// });
+//
+// $(document).ready(function(){
+//   $(".but7").click(function(){
+//     $(".Кейсы").toggle("blok");
+//   });
+// });
 
-$(document).ready(function(){
-  $(".but2").click(function(){
-    $(".Современ").toggle("blok");
-  });
-});
-
-$(document).ready(function(){
-  $(".but3").click(function(){
-    $(".Интерес").toggle("blok");
-  });
-});
-
-$(document).ready(function(){
-  $(".but4").click(function(){
-    $(".Тесты").toggle("blok");
-  });
-});
-
-$(document).ready(function(){
-  $(".but5").click(function(){
-    $(".Личные").toggle("blok");
-  });
-});
-
-$(document).ready(function(){
-  $(".but6").click(function(){
-    $(".Проверка").toggle("blok");
-  });
-});
-
-$(document).ready(function(){
-  $(".but7").click(function(){
-    $(".Кейсы").toggle("blok");
-  });
-});
-
-$('.rectangle').click(function(){
-    $('.glass').find('#glass').attr('src',"images/glasses/glasses_rectangle_black.svg");
+$('.imgsection3').click(function(){
+    $('.but1').find('.Уроки').attr('src',"img/Уроки.png");
   }); //attr - возвращает undefined для тех атрибутов, значение которых не было задано
-  $('.star').click(function(){
-    $('.glass').find('#glass').attr('src',"images/glasses/glasses_star_black.svg");
+  $('.imgsection3').click(function(){
+    $('.but2').find('.Современ').attr('src',"img/Sal.png");
   });
   $('.circle').click(function(){
     $('.glass').find('#glass').attr('src',"images/glasses/glasses_round_black.svg");
