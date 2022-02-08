@@ -17,7 +17,7 @@
 let y;
 $(window).on('scroll', function() {
 	y = $(window).scrollTop();
-	$('.psection4').css('right',5 + parseInt(y-1250) + '%');
+	$('.psection4').css('right',1 + parseInt((y-1200)/10) + '%');
 }); // строка едет вииии, но пока нет адаптивности
 
 
@@ -90,12 +90,36 @@ $(window).on('scroll', function() {
 //   });
 // });
 
-$('.imgsection3').click(function(){
-    $('.but1').find('.Уроки').attr('src',"img/Уроки.png");
-  }); //attr - возвращает undefined для тех атрибутов, значение которых не было задано
-  $('.imgsection3').click(function(){
-    $('.but2').find('.Современ').attr('src',"img/Sal.png");
-  });
-  $('.circle').click(function(){
-    $('.glass').find('#glass').attr('src',"images/glasses/glasses_round_black.svg");
-  });
+// $('.imgsection3').click(function(){
+//     $('.but1').find('.Уроки').attr('src',"");
+//   }); //attr - возвращает undefined для тех атрибутов, значение которых не было задано
+//   $('.imgsection3').click(function(){
+//     $('.but2').find('.Современ').attr('src',"img/Sal.png");
+//   });
+//   $('.circle').click(function(){
+//     $('.glass').find('#glass').attr('src',"images/glasses/glasses_round_black.svg");
+//   });
+
+$(document).ready(function(){
+	$('.but1').click(function(){
+	$('.imgsection3').attr('src', 'img/Уроки.png');
+	})
+	$('.but2').click(function(){
+	$('.imgsection3').attr('src', 'img/Sal.png');
+	})
+	$('.but3').click(function(){
+	$('.imgsection3').attr('src', 'img/Sa36.png');
+	})
+	$('.but4').click(function(){
+	$('.imgsection3').attr('src', 'img/Ot.png');
+	})
+	$('.but5').click(function(){
+	$('.imgsection3').attr('src', 'img/O04.png');
+	})
+	$('.but6').click(function(){
+	$('.imgsection3').attr('src', 'img/Saly23.png');
+	})
+	$('.but7').click(function(){
+	$('.imgsection3').attr('src', 'img/Ot2.png');
+	})
+})
