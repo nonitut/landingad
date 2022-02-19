@@ -316,3 +316,13 @@ a{
 .footer3{
   padding-top: 2vw;
 }
+
+.molecula-wrapper{
+  position: absolute;
+  overflow: hidden;
+  height: 47vw;
+
+}
+.molecula-wrapper img{
+  position: relative;
+}
