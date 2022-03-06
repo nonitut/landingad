@@ -123,3 +123,28 @@ $(document).ready(function(){
 	$('.imgsection3').attr('src', 'img/Ot2.png');
 	})
 })
+
+
+
+$(document).ready(function() {
+    var $element = $('#bubble-1');
+    var newText = 'Печатающийся текст в несколько строк';
+
+    bubbleText({
+        element: $element,
+        newText: newText,
+        speed: 3000,
+        repeat: Infinity,
+    });
+})
+$(document).ready(function() {
+    var $element = $('#bubble-2');
+    var newText = 'пишем тут';
+
+    bubbleText({
+        element: $element,
+        newText: newText,
+        speed: 3000,
+        repeat: Infinity,
+    });
+})
