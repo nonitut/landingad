@@ -30,6 +30,8 @@ function getRandomNumber(min, max) {
 
 }
 
+
+moleculaWrapper
 // function getRandomPosition(element) {
 //     const x = moleculaWrapper.offsetHeight - element.clientHeight;
 //     const y = moleculaWrapper.offsetWidth - element.clientWidth;
