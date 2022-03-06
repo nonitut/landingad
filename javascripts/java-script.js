@@ -126,25 +126,14 @@ $(document).ready(function(){
 
 
 
+
 $(document).ready(function() {
     var $element = $('#bubble-1');
-    var newText = 'Печатающийся текст в несколько строк';
+    var newText = 'Наши методисты создали эффективную методику преподавания детям через игры и интересные задачи';
 
     bubbleText({
         element: $element,
         newText: newText,
-        speed: 3000,
-        repeat: Infinity,
-    });
-})
-$(document).ready(function() {
-    var $element = $('#bubble-2');
-    var newText = 'пишем тут';
-
-    bubbleText({
-        element: $element,
-        newText: newText,
-        speed: 3000,
-        repeat: Infinity,
+        speed: 10000,
     });
 })

@@ -99,6 +99,7 @@ border: 1px solid;
    justify-content: center;
    display: flex;
    height: 40vw;
+   
  }
 
  .hidden{
@@ -325,4 +326,17 @@ a{
 }
 .molecula-wrapper img{
   position: relative;
+}
+
+
+#bubble-1 {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    line-height: 30px;
+    height: 140px;
+    padding: 5%;
+    margin-top: 5%;
+    min-width: 30%;
+    width: 30%;
+
 }
